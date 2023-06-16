@@ -46,18 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alarm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Alarm.Designer.cs">
-      <DependentUpon>Alarm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ForDo While.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ForDo While.Designer.cs">
-      <DependentUpon>ForDo While.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,12 +88,6 @@
     <Compile Include="Loan_Report.Designer.cs">
       <DependentUpon>Loan_Report.cs</DependentUpon>
     </Compile>
-    <Compile Include="Method.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Method.Designer.cs">
-      <DependentUpon>Method.cs</DependentUpon>
-    </Compile>
     <Compile Include="MyClac.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,20 +100,8 @@
     <Compile Include="Notepad.Designer.cs">
       <DependentUpon>Notepad.cs</DependentUpon>
     </Compile>
-    <Compile Include="Picture Viewer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Picture Viewer.Designer.cs">
-      <DependentUpon>Picture Viewer.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Screen Saver.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screen Saver.Designer.cs">
-      <DependentUpon>Screen Saver.cs</DependentUpon>
-    </Compile>
     <Compile Include="StudentsGrade.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,18 +115,6 @@
       <DependentUpon>Guessnumber.cs</DependentUpon>
     </Compile>
     <Compile Include="Utility.cs" />
-    <Compile Include="XOGame.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="XOGame.Designer.cs">
-      <DependentUpon>XOGame.cs</DependentUpon>
-    </Compile>
-    <Compile Include="小畫家.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="小畫家.Designer.cs">
-      <DependentUpon>小畫家.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -183,6 +141,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyClac.resx">
       <DependentUpon>MyClac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notepad.resx">
+      <DependentUpon>Notepad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

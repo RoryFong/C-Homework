@@ -16,7 +16,9 @@ namespace C_Homework
         public StudentsGrade()
         {
             InitializeComponent();
+            panel1.AutoScroll = true;
         }
+        
 
         public void showgrade()
         {
