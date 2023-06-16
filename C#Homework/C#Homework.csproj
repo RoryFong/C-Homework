@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7C85AEB5-21C9-48CF-858E-165A659BD017}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>C_Homework</RootNamespace>
+    <AssemblyName>C#Homework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alarm.Designer.cs">
+      <DependentUpon>Alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForDo While.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForDo While.Designer.cs">
+      <DependentUpon>ForDo While.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Hello.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Hello.Designer.cs">
+      <DependentUpon>Frm_Hello.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Loan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Loan.Designer.cs">
+      <DependentUpon>Frm_Loan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Pos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Pos.Designer.cs">
+      <DependentUpon>Frm_Pos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Student_StructForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Student_StructForm.Designer.cs">
+      <DependentUpon>Frm_Student_StructForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guess.Designer.cs">
+      <DependentUpon>Guess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loan_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loan_Report.Designer.cs">
+      <DependentUpon>Loan_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Method.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Method.Designer.cs">
+      <DependentUpon>Method.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyClac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyClac.Designer.cs">
+      <DependentUpon>MyClac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notepad.Designer.cs">
+      <DependentUpon>Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Picture Viewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Picture Viewer.Designer.cs">
+      <DependentUpon>Picture Viewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screen Saver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screen Saver.Designer.cs">
+      <DependentUpon>Screen Saver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentsGrade.Designer.cs">
+      <DependentUpon>StudentsGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guessnumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guessnumber.Designer.cs">
+      <DependentUpon>Guessnumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs" />
+    <Compile Include="XOGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XOGame.Designer.cs">
+      <DependentUpon>XOGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="小畫家.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="小畫家.Designer.cs">
+      <DependentUpon>小畫家.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Hello.resx">
+      <DependentUpon>Frm_Hello.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Loan.resx">
+      <DependentUpon>Frm_Loan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Pos.resx">
+      <DependentUpon>Frm_Pos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Student_StructForm.resx">
+      <DependentUpon>Frm_Student_StructForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guess.resx">
+      <DependentUpon>Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guessnumber.resx">
+      <DependentUpon>Guessnumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loan_Report.resx">
+      <DependentUpon>Loan_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyClac.resx">
+      <DependentUpon>MyClac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="StudentsGrade.resx">
+      <DependentUpon>StudentsGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
